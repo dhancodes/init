@@ -12,6 +12,13 @@ system up and running smoothly every time. Feel free to tweak steps,
 or adjust this as needed, but consider it a no-nonsense roadmap to get things
 done quickly and efficiently.
 
+## Table of Contents
+- [Step 0: Install OS](#step-0-install-os)
+  - [Creating a bootable USB](#creating-a-bootable-usb)
+- [Step 1: Important commadline utils](#step-1-important-commadline-utils)
+- [Step 2: Setting up github](#step-2-setting-up-github)
+- [Step 3: Setting up window manager](#step-3-setting-up-window-manager)
+
 ## Step 0: Install OS
 
 Select an distro that suits you. For a stable workflow with decent features my
