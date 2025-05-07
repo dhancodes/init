@@ -1,4 +1,4 @@
-## Linux Setup & Maintenance Guide
+# Linux Setup & Maintenance Guide
 
 My Linux Setup & Troubleshooting Guide
 
@@ -12,7 +12,7 @@ system up and running smoothly every time. Feel free to tweak steps,
 or adjust this as needed, but consider it a no-nonsense roadmap to get things
 done quickly and efficiently.
 
-### Step 0: Install OS
+## Step 0: Install OS
 
 Select an distro that suits you. For a stable workflow with decent features my
 recommendation would be using ubuntu. And if you want all the recent features
@@ -21,7 +21,7 @@ I would suggest using manjaro which is an Arch linux based distro.
 For a more tailored recommendation, you can use [DistroChooser](https://distrochooser.de/) to help you select the best Linux
 distribution based on your preferences and experience level.
 
-#### Creating a bootable USB
+### Creating a bootable USB
 
 After downloading the iso file from the respective website we are going to use
 `dd` to make an bootable USB.
@@ -37,7 +37,7 @@ sudo dd status=progress if=path/to/iso/file of=/dev/sd<x>
 
 For more advanced users I would suggest using [Ventoy](https://www.ventoy.net/en/index.html).
 
-### Step 1: Important commadline utils
+## Step 1: Important commadline utils
 
 Install all software that are essential.
 
@@ -52,7 +52,7 @@ sudo apt install vim-nox ranger htop zsh sxiv zathura curl wget stow
 ```bash
 
 ```
-### Step 2: Setting up github
+## Step 2: Setting up github
 
 Generating ssh key.
 ```bash
@@ -66,7 +66,7 @@ Clone necessary reps to system.
 - Scripts
 - Work Files
 
-### Step 3: Setting up window manager
+## Step 3: Setting up window manager
 
 Follow the instruction in the respective git repositories.
 
